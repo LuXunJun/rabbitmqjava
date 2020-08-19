@@ -1,0 +1,7 @@
+rabbitmq-plugins.bat enable rabbitmq_management
+
+
+http://localhost:15672/#/
+
+用户名：guest
+密码： guest
