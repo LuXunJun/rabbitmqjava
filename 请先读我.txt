@@ -1,6 +1,20 @@
 rabbitmq-plugins.bat enable rabbitmq_management
 
 
+Mac OS
+cd /usr/local/Cellar/rabbitmq/3.8.7/sbin
+
+开启服务
+sudo ./rabbitmq-server
+
+开启服务
+sudo ./rabbitmqctl start_app
+
+
+关闭服务
+sudo ./rabbitmqctl stop_app
+
+
 http://localhost:15672/#/
 
 用户名：guest
